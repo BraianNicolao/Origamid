@@ -1,0 +1,30 @@
+:root{
+  --light-black: #222222;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body, h1, h2, p, ul, li, a{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Nunito", Helvetica, Arial, Helvetica, sans-serif;
+  color: var(--light-black);
+}
+
+ul{
+  list-style: none; /*remove as bolinhas*/
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
